@@ -6,6 +6,8 @@ So "Liberté" becomes "Liberte", "nåløye" becomes "naloeye", and so on.
 
 ## Installation
 
+Install using Composer:
+
 ```
 composer install lukaswhite\transliterator
 ```
