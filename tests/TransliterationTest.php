@@ -6,7 +6,7 @@ class TransliterationTest extends TestCase
 {
     public function testTransliterating( )
     {
-        $transliterator = new \Lukaswhite\Abbreviator\Transliterator( );
+        $transliterator = new \Lukaswhite\Transliterator\Transliterator( );
 
         $this->assertEquals(
             'Liberte',
@@ -26,7 +26,7 @@ class TransliterationTest extends TestCase
 
     public function testModifyingTable( )
     {
-        $transliterator = new \Lukaswhite\Abbreviator\Transliterator( );
+        $transliterator = new \Lukaswhite\Transliterator\Transliterator( );
         $table = $transliterator->getTable( );
         $this->assertTrue( is_array( $table ) );
         $this->assertArrayHasKey( 'é', $table );

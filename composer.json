@@ -1,6 +1,6 @@
 {
     "name": "lukaswhite/transliterator",
-    "description": "A PHP class for transliterating strings",
+    "description": "A PHP library for transliterating strings",
     "type": "library",
     "license": "MIT",
     "authors": [

@@ -1,4 +1,4 @@
-<?php namespace Lukaswhite\Abbreviator;
+<?php namespace Lukaswhite\Transliterator;
 
 /**
  * Class Transliterator
